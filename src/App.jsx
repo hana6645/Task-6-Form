@@ -4,6 +4,7 @@ import Todo from './Todo'
 import Cart from './Cart'
 import Counter from './Counter'
 import Count from './Count'
+import Select from './Selcet'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   <Cart/>
   <Counter/>
   <Count/>
+  <Select/>
 
     </>
   )
