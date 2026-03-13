@@ -6,6 +6,8 @@ import Counter from './Counter'
 import Count from './Count'
 import Select from './Selcet'
 import Form from './Form'
+import TogleO from './TogleO'
+import TogleT from './TogleT'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
   <Count/>
   <Select/>
   <Form/>
+  <TogleO/>
+  <TogleT/>
 
     </>
   )
