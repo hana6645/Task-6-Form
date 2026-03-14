@@ -8,6 +8,7 @@ import Select from './Selcet'
 import Form from './Form'
 import TogleO from './TogleO'
 import TogleT from './TogleT'
+import Language from './Language'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
   <Form/>
   <TogleO/>
   <TogleT/>
+  <Language/>
 
     </>
   )
