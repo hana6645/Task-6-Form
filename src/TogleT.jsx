@@ -4,23 +4,24 @@ const initialState ={
 };
 function reducer(state,action){
     switch(action.type){
-        case"TURN GREEN":
+        case"TOGLE COLOR":
         return{
-            color:"green"
+            color:state.color === "grey"? "green":"grey"
         };
         default : return state;
     }
 }
 function TogleT(){
-    const [state,dispatch]=useReducer(reducer,initialState);
+    const [state,dispatch]=useReducer(reducer,{color:"grey"});
       return(
         <div
-         onClick={()=>dispatch({type:"TURN GREEN"})}
+         onClick={()=>dispatch({type:"TOGLE COLOR"})}
          style={{
             width:"120px",
             height:"120px",
             backgroundColor:state.color,
-            border:"1px solid black"     
+            border:"1px solid black",    
+            cursor:"pointer" 
             }}
         >
 
