@@ -9,6 +9,7 @@ import Form from './Form'
 import TogleO from './TogleO'
 import TogleT from './TogleT'
 import Language from './Language'
+import ProductSer from './Prouductser'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
   <TogleO/>
   <TogleT/>
   <Language/>
+  <ProductSer/>
 
     </>
   )
