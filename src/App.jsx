@@ -10,6 +10,7 @@ import TogleO from './TogleO'
 import TogleT from './TogleT'
 import Language from './Language'
 import ProductSer from './Prouductser'
+import Timer from './Timer'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
   <TogleT/>
   <Language/>
   <ProductSer/>
+  <Timer/>
 
     </>
   )
