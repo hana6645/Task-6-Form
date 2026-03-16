@@ -12,6 +12,7 @@ import Language from './Language'
 import ProductSer from './Prouductser'
 import Timer from './Timer'
 import Total from './Total'
+import List from './List'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
   <ProductSer/>
   <Timer/>
 <Total/>
+<List/>
 </>
   )
 }
