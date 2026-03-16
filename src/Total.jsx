@@ -1,6 +1,6 @@
 import React,{useMemo,useState} from "react"
 
-function CartU(){
+function Total(){
 
 const [cart,setCart] = useState([
 {name:"phone",price:20000,qty:1},
@@ -29,4 +29,4 @@ return(
 
 }
 
-export default CartU
+export default Total

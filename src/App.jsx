@@ -11,7 +11,7 @@ import TogleT from './TogleT'
 import Language from './Language'
 import ProductSer from './Prouductser'
 import Timer from './Timer'
-import CartU from './CartU'
+import Total from './Total'
 
 function App() {
 
@@ -30,9 +30,8 @@ function App() {
   <Language/>
   <ProductSer/>
   <Timer/>
-  <CartU/>
-
-    </>
+<Total/>
+</>
   )
 }
 
